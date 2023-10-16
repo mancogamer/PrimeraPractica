@@ -14,5 +14,7 @@ namespace WebAplication.Context
 
         public DbSet<University> universities { get; set; }
 
+        public DbSet<Subject> subjects { get; set; }
+
     }
 }
